@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.navbar {
+    background-color: rgb(62, 190, 62);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(62, 190, 62);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sobre, #cardapio {
+    background-color: rgb(177, 75, 68);
+}
+
+.text-colored {
+    color: rgb(62, 190, 62);
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: rgb(62, 190, 62);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: rgb(62, 190, 62);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    background-color: rgb(62, 190, 62);
+    color: #fff;
+}
+
+#sobre,
+#cardapio {
+    color: #fff;
+}
+
+#faleConosco button {
+    border: 1px solid green;
+}
+
+#faleConosco button:hover {
+    background-color: green;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #cardapio aside{
+        margin-bottom: 12px;
+    }
+}
